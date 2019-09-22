@@ -8,5 +8,10 @@
 	
 	<body>
 		<h3>Teste de spring boot em jar com jsp. Será que isso vai dar certo?</h3>
+
+		<script type="text/javascript">
+			var mensagem = "${msg}";
+			alert(mensagem);
+		</script>
 	</body>
 </html>

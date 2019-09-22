@@ -10,6 +10,7 @@ public class InicioController {
 	@RequestMapping("/")
 	public ModelAndView indexAction() {
 		ModelAndView view = new ModelAndView("inicio/index");
+		view.addObject("msg", "Teste de Spring Boot em Jar com JSP.");
 		return view;
 	}
 
